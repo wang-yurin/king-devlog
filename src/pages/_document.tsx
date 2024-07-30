@@ -7,11 +7,7 @@ class MyDocument extends Document {
       <Html lang={CONFIG.lang}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <link
-            rel="apple-touch-icon"
-            sizes="192x192"
-            href="/apple-touch-icon.png"
-          ></link>
+          <link rel="apple-icon" sizes="192x192" href="/apple-icon.png"></link>
           <link
             rel="alternate"
             type="application/rss+xml"
@@ -23,7 +19,7 @@ class MyDocument extends Document {
             <>
               <meta
                 name="google-site-verification"
-                content={CONFIG.googleSearchConsole.config.siteVerification}
+                content="nKrnNJk0YBbV0TTWZhYECEhc1nuC-Dfxt3QPr0ltpSg"
               />
             </>
           )}
