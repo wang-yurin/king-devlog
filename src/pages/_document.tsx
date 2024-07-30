@@ -19,7 +19,7 @@ class MyDocument extends Document {
             <>
               <meta
                 name="google-site-verification"
-                content="nKrnNJk0YBbV0TTWZhYECEhc1nuC-Dfxt3QPr0ltpSg"
+                content={CONFIG.googleSearchConsole.config.siteVerification}
               />
             </>
           )}
